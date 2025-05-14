@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdur Rehman - Web Developer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Poppins&family=Paprika&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header id="about">
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-list" id="navList">
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Hero Text Section -->
+    <div class="text">
+      <p id="p1">Web Developer</p>
+
+      <div id="t1">
+        <p id="p2">8+</p>
+        <p id="p3">Years of Experience in Web Development</p>
+      </div>
+
+      <div id="t2">
+        <p id="p4">Projects Worked in My Career</p>
+        <p id="p5">20+</p>
+      </div>
+
+      <div id="box1">
+        <button id="b1">Hire Me</button>
+      </div>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="img-wrapper">
+      <img class="animated-image" src="assets/AR.png" />
+    </div>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <p>
+        <p1>ABDUR</p1> REHMAN
+      </p>
+    </aside>
+  </header>
+  <main class="skills" id="skills">
+    <div class="skills-header">
+      <h2>SKILLS</h2>
+      <h4>MY TOP SKILLS</h4>
+    </div>
+    <div class="skills-body">
+      <div class="skills-body-1">
+        <div class="skill-reactjs">
+          <img src="assets/react.png" alt="">
+          <div class="react-text">
+            <h6>React JS </h6>
+            <p>Lorem ipsum text dummy</p>
+          </div>
+
+          <div class="arrow-icon" id="arrowBtn">➜</div>
+          <div class="tooltip" id="tooltipBox">
+            This is a small tooltip-style dialogue box.<br>
+            You can place 3–4 lines of helpful info here.<br>
+            It's great for quick tips!
+          </div>
+
+
+        </div>
+        <div class="skill-flutter">
+          <img src="assets/flutter.jpeg" alt="">
+          <div class="flutter-text">
+            <h6>Flutter Developer</h6>
+            <p>Lorem ipsum text dummy</p>
+          </div>
+          <div class="arrow-icon" id="arrowBtn">➜</div>
+        </div>
+      </div>
+      <div class="skills-body-2">
+        <div class="skill-android">
+          <img src="assets/android.jpeg" alt="">
+          <div class="android-text">
+            <h6>Android Developer</h6>
+            <p>Lorem ipsum text dummy</p>
+          </div>
+          <div class="arrow-icon" id="arrowBtn">➜</div>
+        </div>
+        <div class="skill-web">
+          <img src="assets/web.jpeg" alt="">
+          <div class="web-text">
+            <h6>Web Developer</h6>
+            <p>Lorem ipsum text dummy</p>
+          </div>
+          <div class="arrow-icon" id="arrowBtn">➜</div>
+        </div>
+      </div>
+      <div class="skills-body-3">
+        <div class="skill-nodejs">
+          <img src="assets/node.png" alt="">
+          <div class="nodejs-text">
+            <h6>Node JS></h6>
+            <p>Lorem ipsum text dummy</p>
+          </div>
+          <div class="arrow-icon" id="arrowBtn">➜</div>
+        </div>
+        <div class="skill-illustrator">
+          <img src="assets/illustrator.jpeg" alt="">
+          <div class="illus-text">
+            <h6>Adobe Illustrator</h6>
+            <p>Lorem ipsum text dummy</p>
+          </div>
+          <div class="arrow-icon" id="arrowBtn">➜</div>
+          <div class="tooltip" id="tooltipBox">
+            This is a small tooltip-style dialogue box.<br>
+            You can place 3–4 lines of helpful info here.<br>
+            It's great for quick tips!
+          </div>
+        </div>
+
+
+      </div>
+  </main>
+  <div class="services" id="services">
+    <div class="services-header">
+      <h2>Services</h2>
+      <h4>WHAT I OFFER</h4>
+    </div>
+    <div class="services-1">
+      <div class="service-card">
+        <h6>Web development</h6> <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, in laborum. Esse optio velit, iusto
+          tempore, neque, facere hic accusantium ab quidem voluptas dolor vitae eos! Corrupti assumenda quod amet?</p>
+      </div>
+      <div class="service-card">
+        <h6>Android development</h6> <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed maiores voluptates suscipit voluptas explicabo,
+          accusamus fuga enim? Minus recusandae nulla, omnis itaque totam, harum ipsum in a veritatis, ratione explicabo
+        </p>
+      </div>
+      <div class="service-card">
+        <h6>Illustrator design</h6> <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, tenetur illo! Explicabo dolorum
+          reprehenderit quas quidem quis ipsam eaque assumenda, magni odit sint quod, ad esse veritatis, sapiente nemo
+          enim?</p>
+      </div>
+    </div>
+
+  </div>
+  <footer id="contact">
+    <div class="contactme">
+      <h2>Contact Me</h2>
+      <h4>GET IN TOUCH</h4>
+    </div>
+    <div class="input">
+      <form>
+        <input type="text" placeholder="Name" name=" Name" class="name"><br><input type="email" placeholder="Email"
+          class="email"> <br><input type="text" placeholder="Message" class="message">
+      </form>
+
+      <div class="input2">
+        <div class="info-item">
+          <i class="icon fa fa-envelope"></i>
+          <a href="mailto:dummy@email.com">gabdurrehman493@gmail.com</a>
+        </div>
+        <div class="info-item">
+          <i class="icon fa fa-phone"></i>
+          <a href="tel:+1234567890">+92324 7440629</a>
+        </div>
+        <div class="info-item">
+          <i class="icon fa fa-facebook"></i>
+          <a href="https://facebook.com" target="_blank">Abdur Rehman</a>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+
+  <script>
+    // Toggle menu visibility
+    function toggleMenu() {
+      const navList = document.getElementById('navList');
+      navList.classList.toggle('show');
+    }
+
+    // Tooltip visibility on button click
+    const arrowBtn = document.getElementById('arrowBtn');
+    const tooltipBox = document.getElementById('tooltipBox');
+
+    arrowBtn.addEventListener('click', () => {
+      tooltipBox.classList.toggle('visible');
+    });
+
+    // Intersection Observer for info-item animation
+    const infoItems = document.querySelectorAll('.info-item');
+
+    const infoObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        // Reset animation when the element is out of view
+        if (!entry.isIntersecting) {
+          entry.target.classList.remove('animate'); // Remove animation class when out of view
+        }
+        // Trigger animation when the element is in view
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    infoItems.forEach(item => {
+      infoObserver.observe(item);
+    });
+
+    // Intersection Observer for fade-in animation of h2, h4, and service cards
+    const fadeEls = document.querySelectorAll('h2, h4, .service-card');
+
+    const fadeObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        // Reset animation when the element is out of view
+        if (!entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'paused';
+        }
+        // Trigger animation when the element is in view
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = 'running';
+        }
+      });
+    }, { threshold: 0.4 });
+
+    fadeEls.forEach(el => {
+      el.style.animationPlayState = 'paused';
+      fadeObserver.observe(el);
+    });
+    const observerOptions = {
+      threshold: 0.5
+    };
+
+    const fadeElements = document.querySelectorAll('.services h2, .services h4, .service-card');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const el = entry.target;
+
+        if (entry.isIntersecting) {
+          // Apply animation with dynamic delay
+          if (el.classList.contains('service-card')) {
+            const index = Array.from(el.parentNode.children).indexOf(el);
+            el.style.animationDelay = `${1.2 + index * 0.6}s`;
+            el.classList.add('animate-fadeInUp');
+          } else if (el.tagName === 'H2') {
+            el.style.animationDelay = `0.2s`;
+            el.classList.add('animate-fadeInDown');
+          } else if (el.tagName === 'H4') {
+            el.style.animationDelay = `0.8s`;
+            el.classList.add('animate-fadeInDown');
+          }
+        } else {
+          el.classList.remove('animate-fadeInUp', 'animate-fadeInDown');
+          el.style.animationDelay = ''; // Reset delay
+        }
+      });
+    }, observerOptions);
+
+    fadeElements.forEach(el => observer.observe(el));
+
+    const cards = document.querySelectorAll('.service-card');
+    const servicesDiv = document.querySelector('.services');
+
+    cards.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        servicesDiv.classList.add('Dimmed');
+      });
+
+      card.addEventListener('mouseleave', () => {
+        servicesDiv.classList.remove('Dimmed');
+      });
+    });
+    const contactSection = document.querySelector('.contactme');
+
+    const contactObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          contactSection.classList.add('play-animation');
+        } else {
+          contactSection.classList.remove('play-animation'); // Remove to reset for next scroll
+        }
+      });
+    }, { threshold: 0.4 });
+
+    contactObserver.observe(contactSection);
+
+    // Select all the elements you want to animate
+    const messageSections = document.querySelectorAll('.name, .email, .message');
+
+    // Intersection Observer to observe when these elements come into view
+    const messageObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Add animation class when the element comes into view
+          entry.target.classList.add('pro-animation');
+        } else {
+          // Remove animation class when the element goes out of view
+          entry.target.classList.remove('pro-animation');
+        }
+      });
+    }, { threshold: 0.6 }); // Trigger when 40% of the element is in view
+
+    // Observe each element
+    messageSections.forEach(section => {
+      messageObserver.observe(section);
+    });
+
+    const flutterSection = document.querySelector('.skill-flutter');
+
+    const flutterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          flutterSection.classList.add('pre-animation');
+        } else {
+          flutterSection.classList.remove('pre-animation'); // Remove to reset for next scroll
+        }
+      });
+    }, { threshold: 0.4 });
+
+    flutterObserver.observe(flutterSection);
+
+    const skillSections = document.querySelectorAll('.skill-reactjs, .skill-flutter,.skill-android,.skill-web, .skill-nodejs, .skill-illustrator');
+
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const el = entry.target;
+        if (entry.isIntersecting) {
+          // Add different animation classes based on the element's class
+          if (el.classList.contains('skill-reactjs')) {
+            el.classList.add('react-animation');
+          } else if (el.classList.contains('skill-android')) {
+            el.classList.add('android-animation');
+          } else if (el.classList.contains('skill-web')) {
+            el.classList.add('web-animation');
+          } else if (el.classList.contains('skill-nodejs')) {
+            el.classList.add('node-animation');
+          } else if (el.classList.contains('skill-illustrator')) {
+            el.classList.add('illus-animation');
+          }
+        } else {
+          // Remove animation classes when out of view
+          el.classList.remove('react-animation', 'node-animation', 'web-animation', 'android-animation', 'illus-animation');
+        }
+      });
+    }, { threshold: 0.3 });
+
+    // Observe all targeted sections
+    skillSections.forEach(section => {
+      skillObserver.observe(section);
+    });
+
+
+    // const skillSections = document.querySelectorAll('.skill-reactjs, .skill-flutter, .skill-android, .skill-web, .skill-nodejs, .skill-illustrator');
+
+    // const skillObserver = new IntersectionObserver((entries) => {
+    //   entries.forEach(entry => {
+    //     const el = entry.target;
+    //     const visibleRatio = entry.intersectionRatio;
+
+    //     // Clear all animation classes
+    //     el.classList.remove(
+    //       'react-animation', 'react-animation-out',
+    //       'flutter-animation', 'flutter-animation-out',
+    //       'android-animation', 'android-animation-out',
+    //       'web-animation', 'web-animation-out',
+    //       'node-animation', 'node-animation-out',
+    //       'illus-animation', 'illus-animation-out'
+    //     );
+
+    //     if (visibleRatio >= 0.6) {
+    //       // Element is clearly visible → animate IN
+    //       if (el.classList.contains('skill-reactjs')) {
+    //         el.classList.add('react-animation');
+    //       } else if (el.classList.contains('skill-flutter')) {
+    //         el.classList.add('flutter-animation');
+    //       } else if (el.classList.contains('skill-android')) {
+    //         el.classList.add('android-animation');
+    //       } else if (el.classList.contains('skill-web')) {
+    //         el.classList.add('web-animation');
+    //       } else if (el.classList.contains('skill-nodejs')) {
+    //         el.classList.add('node-animation');
+    //       } else if (el.classList.contains('skill-illustrator')) {
+    //         el.classList.add('illus-animation');
+    //       }
+    //     } else if (visibleRatio <= 0.4) {
+    //       // Element is going out of view → animate OUT (reverse)
+    //       if (el.classList.contains('skill-reactjs')) {
+    //         el.classList.add('react-animation-out');
+    //       } else if (el.classList.contains('skill-flutter')) {
+    //         el.classList.add('flutter-animation-out');
+    //       } else if (el.classList.contains('skill-android')) {
+    //         el.classList.add('android-animation-out');
+    //       } else if (el.classList.contains('skill-web')) {
+    //         el.classList.add('web-animation-out');
+    //       } else if (el.classList.contains('skill-nodejs')) {
+    //         el.classList.add('node-animation-out');
+    //       } else if (el.classList.contains('skill-illustrator')) {
+    //         el.classList.add('illus-animation-out');
+    //       }
+    //     }
+    //   });
+    // }, {
+    //   threshold: [0.0, 0.4, 0.6, 1.0]
+    // });
+
+    // skillSections.forEach(section => {
+    //   skillObserver.observe(section);
+    // });
+
+
+
+  </script>
+
+
+  </script>
+
+
+
+
+</body>
+
+</html>
